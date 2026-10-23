@@ -1,18 +1,15 @@
 {
-    "geode": "v5.0.0-beta.3",
-    "gd": {
-        "android": "2.2081"
-    },
+    "geode": ">=v4.0.0",
+    "gd": { "android": "2.2081" },
     "id": "ziettkhueee.optfix",
     "name": "OptFix",
     "version": "v1.0.0",
     "developer": "ZiettKhueee",
-    "description": "Android optimization: 120 FPS cap, sprite cache purge, particle throttle.",
+    "description": "Android optimization: 120 FPS cap, sprite cache purge.",
     "settings": {
         "fps-cap": {
             "type": "int",
             "name": "FPS Cap",
-            "description": "Maximum render FPS",
             "default": 120,
             "min": 60,
             "max": 240,
@@ -21,14 +18,7 @@
         "purge-sprites": {
             "type": "bool",
             "name": "Purge Sprite Cache",
-            "description": "Remove unused sprite frames on level enter",
             "default": true
-        },
-        "disable-glow": {
-            "type": "bool",
-            "name": "Disable Glow/Bloom",
-            "description": "Skip shader-based glow passes",
-            "default": false
         }
     }
 }
