@@ -2,10 +2,10 @@
     "geode": "v5.11.2",
     "gd": { "android": "2.2081" },
     "id": "ziettkhueee.optfix",
-    "name": "OptFix",
+    "name": "ZiettKhueee OptFix",
     "version": "v1.0.0",
     "developer": "ZiettKhueee",
-    "description": "Android optimization: 120 FPS cap, sprite cache purge.",
+    "description": "Bypass by ZiettKhueee - Join server https://discord.gg/nightowls1",
     "settings": {
         "fps-cap": {
             "type": "int",
