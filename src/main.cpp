@@ -4,6 +4,10 @@
 
 using namespace geode::prelude;
 
+$execute {
+    log::info("Bypass by ZiettKhueee - Join server https://discord.gg/nightowls1");
+}
+
 class $modify(OptFixDirector, cocos2d::CCDirector) {
     void setAnimationInterval(double interval) {
         int cap = Mod::get()->getSettingValue<int>("fps-cap");
